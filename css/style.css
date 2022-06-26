@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-------------------INDEX------------------*/
+/*----GRIDS-----*/
+
+.grids-index
+{
+    display: grid;
+    grid-template-columns:70 vh 30vh;
+    grid-template-rows:30% 30% 40;
+    grid-template-areas:
+    "menu footer"
+    "seccion-plenitud footer"
+    "seccion-zen footer";
+
+}
+.menu 
+{
+    grid-area: menu;
+    
+}
+
+.seccion-plenitud
+{
+    grid-area: seccion-plenitud;
+
+}
+
+.seccion-zen
+{
+    grid-area: seccion-zen;
+}
+
+.footer
+{
+    grid-area: footer;
+
+
+}
+
+/*-----INICIO LOGOS FOOTER-------*/
+.texto-f
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.581);
+    background-image: url(../pages/img/logo_vecam-removebg-preview.png);
+}
+.img-logo-fc
+{
+    width: 50 px;
+    height: 50px;
+}
+.img-logo-ig
+{
+    width: 50px;
+    height: 50px;
+}
+.img-logo-wh
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+/*-----FIN LOGO FOOTER------*/
+
+/* probando grids----------
+#menu
+{
+    text-decoration: none;
+    color: #bf9797;
+    text-align: justify-between;
+    list-style: none;
+    position: fixed;
+  }
+*/
+a
+{
+   text-decoration: none;
+   text-decoration-color: #bf9797;
+   text-decoration-line: none;
+   justify-content: space-between;
+   background-color: hsl(17, 33%, 53%);
+   display: block;
+   padding: 10px;
+   position: fixed;
+
+}
+
+.img-logo
+{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  left: 350px;
+  
+}
+
+
+
+body {
+    background-color: #d8cac764;
+    font-family: Arial, Helvetica, 
+    sans-serif;image-resolution: 50px;
+    background-image: url ("./pages/img/Vecam\ INSTA.png");
+    grid-area: auto;
+} 
+
+
+h1{
+    color: rgba(102, 42, 42, 0.877);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background-color: #771d0957;
+     
+     
+}
+  
+  /*PROBANDO GRIDS MENU 2-----------
+.menu 
+{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    background-color: azure;
+ 
+
+}
+ 
+
+.menu ul
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: -20px;
+    display: flex;
+}
+
+  .menu ul li
+  {
+padding: 10 px;
+  }  
+
+  .menu ul li a 
+  {
+      padding: 6px;
+  }
+
+*/
+
+
+.articulo-1
+{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+     
+  
+.articulo-1 p
+{
+    background-image: url(../pages/img/Vecam\ INSTA.png);
+    background-repeat: no-repeat;
+    background-size: 200 px;
+    background-position: center;    
+}
+
+
+
+/* box modeling*/
+
+.caja
+
+{
+   /* border-color: #bf9797;
+    border-style: solid;
+    border-width: 10px;*/
+
+    border:solid 10 px #bf9797 ;
+
+    width: 100px;
+    height: 200px;
+
+    margin-top: 100px; 200px;100px;200px;
+
+    margin-inline:auto;
+}
+
+/*.caja 
+{
+border-color:hsl(17, 33%, 53%) ;
+border-style: solid;
+border-width: 3px;
+}
+
+.tarjeta titulo
+{
+   font-family: Arial, Helvetica, sans-serif; 
+   text-decoration: solid;
+   text-decoration: chocolate;
+   background-color: #d8cac7;
+}*/
+
+section banner titulo 
+{
+background-color: brown;
+border: #bf9797;
+text-decoration: overline;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*Seccion productos*/
+
+.h2 titulo-productos
+{
+    background-color: #bf9797;
+    text-align: center;
+}
+/*probando grids 3------------
+.nav menu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: -20px;
+    display: flex;
+    
+}*/
+
+/*.tarjeta
+{
+    border: #bf9797;
+    border-bottom:solid 3px;
+    
+}*/
+
+.tarjeta img
+{ 
+    width:200 px;
+    height: 200px;
+   
+}
+
+/*seccion nosotros*/
+
+.articulo p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    aside
+
+    
+}
+
+.img-nosotros-logo
+{
+    background-image:"C:\Users\Familia\Desktop\proyecto\pages\img\logo_vecam-removebg-preview.png" ;
+width: 200px;
+height: 200px;
+
+}
+
+.img-nosotros-vela
+{
+    background-image:"C:\Users\Familia\Desktop\proyecto\pages\img\vela web 1.jpg"  ;
+    width: 200px;
+    height: 150px;
+}
+.futer-img-ubicacion
+{
+    background-image:C:\Users\Familia\Desktop\proyecto\pages\img\mapa moron nos.jpg ;
+    width: 300px;
+    height: 200px;
+}
+footer
+{
+    background-color: rgba(165, 42, 42, 0.365)
+}
+
+footer p
+{
+    font-family: Arial, Helvetica, sans-serifS;
+    text-align: center;
+    text-decoration-color:rgba(165, 42, 42, 0.789);
+    border-bottom: rgba(165, 42, 42, 0.687);
+}
+
+footer .boton
+
+{
+    border-bottom:solid;
+    border-color: maroon;
+ 
+    
+}
+
+/* seccion Productos*/
+
+.img-producto-1
+{
+    background-image:"C:\Users\Familia\Desktop\proyecto\pages\img\WhatsApp Image 2022-05-27 at 11.54.38 PM.jpeg" ;
+    width: 200px;
+    height: 200px;
+}
+
+.img-producto-2
+{
+    background-image:"C:\Users\Familia\Desktop\proyecto\pages\img\WhatsApp Image 2022-05-24 at 11.16.04 AM (2).jpeg" alt="apaga-velas-vela-de-soja-en-forma-de-simbolo-de-yin-y-yan" ;
+    width: 200px;
+    height: 200px;   
+}
+
+.img-producto-3
+{
+    background-image:"C:\Users\Familia\Desktop\proyecto\pages\img\Vecam INSTA.png" ;
+    width: 200px;
+    height: 200px;     
+}
+
+/* NUESTROS AROMAS- SECCION*/
+
+.img-aroma
+{
+    
+background-image: "C:\Users\Familia\Desktop\proyecto\pages\img\aroma-acorde-a-tu-personalidad.jpg" ;
+background-position: center;
+width: 200px;
+    height: 200px;    
+
+}
+/* QUE ESTOY HACIENDO MAL?
+
+.section-texto-aroma
+{
+    background-image:background-image: "C:\Users\Familia\Desktop\proyecto\pages\img\aroma-acorde-a-tu-personalidad.jpg"  ;
+}
+*/
+
+
+
+/*
+.grids-nosotros
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows:15vh repeat (2,50vw) ;10hv; 
+
+
+    grid-template-areas:
+     "nav img"
+     "nav img "
+     "nav articulo "
+     "nav footer";
+} 
+
+img {
+    grid-area: head;
+}
+
+nav {
+    grid-area: nav;
+}  */
+
+/*----------------- SECCION Guia poara intencionar---------------- */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+.header
+{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+
+position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}*/
+
+/*.contenedor
+{
+    width: 98%;
+    margin: auto;
+
+}*/
+.body-guia-para-intencionar
+{
+    display: grid;
+    grid-template-columns: 400 px 400px;
+    grid-template-rows: 400px 400 px ;
+
+}
+
+.caja
+{
+background-color: rgba(96, 19, 19, 0.657);
+border: 4px solid rgb(119, 50, 50);
+font-size: 2 rem;
+}
+.contenedor
+{ 
+    display: grid;
+    grid-template-columns: 400 px 400px;
+    grid-template-rows: 400px 400 px ;
+   /* margin: auto;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;*/
+
+   /* align-items: center;*/
+
+}
+
+/*
+.caja-posicionada
+{
+    background-color: #c81ace60;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.article-guia-manifestacion-video
+{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+} */
+
+
+
+/* ------------APLICANDO MEDIA QUERIM MOBILEPHONE---------*/
+
+header
+{
+    background-color: bisque;
+    color: azure;
+    padding: 15 px;
+
+    display: center;
+    
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav ul
+{
+    display: flex;
+    justify-content:space-around ;
+}
+
+/*-----BANNER------*/
+
+.banner
+{
+height: 30vh;
+text-align: center;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.banner-texto
+{
+height: 30vh;
+text-align:center ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.banner-img
+
+{
+    width: 100%;
+}
+@media (min-width: 480 px)
+{
+.body-guia-para-intencionar
+
+}
+
+@media (max-width: 1024 px)
+{
+header
+{
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    width: 40%;
+}
+.banner{
+    display: flex;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-texto
+{
+    text-align: start;
+}
+}
